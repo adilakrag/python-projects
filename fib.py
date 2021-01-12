@@ -3,10 +3,10 @@ prev = 1
 curr = 1
 next = 0
 
-i=1
+i=0
 print (curr)
 print(prev)
-while i > 0:
+while i <100:
     next = curr + prev
     print(next);
     prev=curr
